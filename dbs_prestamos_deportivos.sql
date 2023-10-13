@@ -43,7 +43,7 @@ create table tbl_rol (
 )
 
 create table tbl_implementos (
-	PKCodigo varchar(10) not null,
+	PKCodigo varchar(10) primary key not null,
 	Nombre varchar(80) not null,
 	Especificaciones varchar(5000) not null,
 	Cantidad int not null,
