@@ -26,5 +26,19 @@ namespace Presentacion
         {
 
         }
+
+        private void materialButton1_Click(object sender, EventArgs e)
+        {
+            txt_cantidad_prestamo.Clear();
+            txt_id.Clear();
+            txt_codigo.Clear();
+            txt_descripcion.Clear();
+            txt_cantidad_prestamo.Clear();
+            txt_observaciones.Clear();
+            txt_nombre_implemento.Clear();
+            txt_nombre.Clear();
+            dtg_prestamo.DataSource = null;
+
+        }
     }
 }
