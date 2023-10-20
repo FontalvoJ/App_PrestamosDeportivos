@@ -48,5 +48,20 @@ namespace Presentacion
         {
                 
         }
+
+        private void materialButton3_Click(object sender, EventArgs e)
+        {
+            txt_identificacion.Clear();
+            txt_pnombre.Clear();
+            txt_snombre.Clear();
+            txt_papellido.Clear();
+            txt_sapellido.Clear();
+            txt_contacto.Clear();
+            txt_correo.Clear();
+            cbx_sexo.Items.Clear();
+            txt_direccion.Clear();
+
+
+        }
     }
 }

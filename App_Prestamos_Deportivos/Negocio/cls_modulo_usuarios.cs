@@ -22,7 +22,6 @@ namespace Negocio
         private string str_sexo;
 
 
-
         cls_conexion objConectar = new cls_conexion();
 
         public void fnt_guadar (string id, string pnombre, string snombre, string papellido, string sapellido,
