@@ -55,6 +55,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="frm_implementos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_implementos.Designer.cs">
+      <DependentUpon>frm_implementos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_modulo_usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frm_implementos.resx">
+      <DependentUpon>frm_implementos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_modulo_usuarios.resx">
       <DependentUpon>frm_modulo_usuarios.cs</DependentUpon>
     </EmbeddedResource>
