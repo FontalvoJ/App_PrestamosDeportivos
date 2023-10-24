@@ -10,17 +10,16 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class frm_modulo_login : Form
+    public partial class frm_modulo_roles : Form
     {
-        public frm_modulo_login()
+        public frm_modulo_roles()
         {
             InitializeComponent();
         }
 
-        private void btn_cancelar_Click(object sender, EventArgs e)
+        private void materialLabel1_Click(object sender, EventArgs e)
         {
-            txt_usuario.Clear();
-            txt_contraseña.Clear();
+
         }
 
         private void materialButton1_Click(object sender, EventArgs e)
@@ -28,9 +27,12 @@ namespace Presentacion
 
         }
 
-        private void materialLabel1_Click(object sender, EventArgs e)
+        private void materialButton2_Click(object sender, EventArgs e)
         {
-
+            txt_id.Focus();
+            txt_id.Clear();
+            txt_nomenclatura.Clear();
+            txt_descripcion.Clear();
         }
     }
 }

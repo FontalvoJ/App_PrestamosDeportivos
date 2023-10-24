@@ -29,6 +29,7 @@ namespace Presentacion
 
         private void materialButton1_Click(object sender, EventArgs e)
         {
+            txt_id.Focus();
             txt_cantidad_prestamo.Clear();
             txt_id.Clear();
             txt_codigo.Clear();

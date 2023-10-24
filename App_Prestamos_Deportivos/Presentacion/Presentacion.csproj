@@ -67,6 +67,12 @@
     <Compile Include="frm_modulo_login.Designer.cs">
       <DependentUpon>frm_modulo_login.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_modulo_roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_modulo_roles.Designer.cs">
+      <DependentUpon>frm_modulo_roles.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_modulo_usuarios.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     <EmbeddedResource Include="frm_modulo_login.resx">
       <DependentUpon>frm_modulo_login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_modulo_roles.resx">
+      <DependentUpon>frm_modulo_roles.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_modulo_usuarios.resx">
       <DependentUpon>frm_modulo_usuarios.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,6 +110,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="dbs_prestamos_deportivosDataSet.xsc">
       <DependentUpon>dbs_prestamos_deportivosDataSet.xsd</DependentUpon>
@@ -126,6 +136,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
