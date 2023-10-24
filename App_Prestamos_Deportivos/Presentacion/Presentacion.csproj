@@ -61,6 +61,12 @@
     <Compile Include="frm_implementos.Designer.cs">
       <DependentUpon>frm_implementos.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_modulo_estado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_modulo_estado.Designer.cs">
+      <DependentUpon>frm_modulo_estado.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_modulo_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +78,12 @@
     </Compile>
     <Compile Include="frm_modulo_roles.Designer.cs">
       <DependentUpon>frm_modulo_roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_modulo_sexo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_modulo_sexo.Designer.cs">
+      <DependentUpon>frm_modulo_sexo.cs</DependentUpon>
     </Compile>
     <Compile Include="frm_modulo_usuarios.cs">
       <SubType>Form</SubType>
@@ -90,11 +102,17 @@
     <EmbeddedResource Include="frm_implementos.resx">
       <DependentUpon>frm_implementos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frm_modulo_estado.resx">
+      <DependentUpon>frm_modulo_estado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frm_modulo_login.resx">
       <DependentUpon>frm_modulo_login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_modulo_roles.resx">
       <DependentUpon>frm_modulo_roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_modulo_sexo.resx">
+      <DependentUpon>frm_modulo_sexo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_modulo_usuarios.resx">
       <DependentUpon>frm_modulo_usuarios.cs</DependentUpon>

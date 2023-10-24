@@ -36,5 +36,15 @@ namespace Presentacion
             txt_nombre.Clear();
             txt_valor.Clear();
         }
+
+        private void txt_descripcion_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_nombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

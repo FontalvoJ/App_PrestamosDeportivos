@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_modulo_login));
             this.txt_usuario = new MaterialSkin.Controls.MaterialTextBox();
             this.txt_contraseña = new MaterialSkin.Controls.MaterialTextBox();
             this.btn_cancelar = new MaterialSkin.Controls.MaterialButton();
@@ -42,7 +43,7 @@
             this.txt_usuario.AnimateReadOnly = false;
             this.txt_usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_usuario.Depth = 0;
-            this.txt_usuario.Font = new System.Drawing.Font("Microsoft Uighur", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_usuario.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_usuario.Hint = "Usuario";
             this.txt_usuario.LeadingIcon = null;
             this.txt_usuario.Location = new System.Drawing.Point(281, 94);
@@ -60,7 +61,7 @@
             this.txt_contraseña.AnimateReadOnly = false;
             this.txt_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_contraseña.Depth = 0;
-            this.txt_contraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txt_contraseña.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_contraseña.Hint = "Contraseña";
             this.txt_contraseña.LeadingIcon = null;
             this.txt_contraseña.Location = new System.Drawing.Point(281, 162);
@@ -97,7 +98,8 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Presentacion.Properties.Resources.iniciar_sesion;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(11, 11);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
@@ -155,7 +157,7 @@
             this.Controls.Add(this.btn_cancelar);
             this.Controls.Add(this.txt_contraseña);
             this.Controls.Add(this.txt_usuario);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_modulo_login";
             this.Text = "frm_modulo_login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
