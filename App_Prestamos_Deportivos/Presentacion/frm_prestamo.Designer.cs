@@ -52,7 +52,7 @@
             this.txt_id.Hint = "Identificación de la persona";
             this.txt_id.LeadingIcon = null;
             this.txt_id.Location = new System.Drawing.Point(65, 88);
-            this.txt_id.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_id.Margin = new System.Windows.Forms.Padding(2);
             this.txt_id.MaxLength = 50;
             this.txt_id.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_id.Multiline = false;
@@ -71,7 +71,7 @@
             this.txt_nombre.Hint = "Nombre persona";
             this.txt_nombre.LeadingIcon = null;
             this.txt_nombre.Location = new System.Drawing.Point(323, 88);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nombre.MaxLength = 50;
             this.txt_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_nombre.Multiline = false;
@@ -91,7 +91,7 @@
             this.txt_codigo.Hint = "Código del implemento";
             this.txt_codigo.LeadingIcon = null;
             this.txt_codigo.Location = new System.Drawing.Point(65, 155);
-            this.txt_codigo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_codigo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_codigo.MaxLength = 50;
             this.txt_codigo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_codigo.Multiline = false;
@@ -110,7 +110,7 @@
             this.txt_descripcion.Hint = "Descripción";
             this.txt_descripcion.LeadingIcon = null;
             this.txt_descripcion.Location = new System.Drawing.Point(323, 155);
-            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(2);
             this.txt_descripcion.MaxLength = 50;
             this.txt_descripcion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_descripcion.Multiline = false;
@@ -131,7 +131,7 @@
             this.txt_existencias.Hint = "Existencias ";
             this.txt_existencias.LeadingIcon = null;
             this.txt_existencias.Location = new System.Drawing.Point(65, 221);
-            this.txt_existencias.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_existencias.Margin = new System.Windows.Forms.Padding(2);
             this.txt_existencias.MaxLength = 50;
             this.txt_existencias.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_existencias.Multiline = false;
@@ -151,7 +151,7 @@
             this.txt_nombre_implemento.Hint = "Nombre del Implemento";
             this.txt_nombre_implemento.LeadingIcon = null;
             this.txt_nombre_implemento.Location = new System.Drawing.Point(323, 221);
-            this.txt_nombre_implemento.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_nombre_implemento.Margin = new System.Windows.Forms.Padding(2);
             this.txt_nombre_implemento.MaxLength = 50;
             this.txt_nombre_implemento.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_nombre_implemento.Multiline = false;
@@ -171,7 +171,7 @@
             this.txt_cantidad_prestamo.Hint = "Cantidad a prestar";
             this.txt_cantidad_prestamo.LeadingIcon = null;
             this.txt_cantidad_prestamo.Location = new System.Drawing.Point(62, 285);
-            this.txt_cantidad_prestamo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_cantidad_prestamo.Margin = new System.Windows.Forms.Padding(2);
             this.txt_cantidad_prestamo.MaxLength = 50;
             this.txt_cantidad_prestamo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_cantidad_prestamo.Multiline = false;
@@ -262,7 +262,7 @@
             this.txt_observaciones.HideSelection = true;
             this.txt_observaciones.Hint = "Observaciones";
             this.txt_observaciones.Location = new System.Drawing.Point(323, 285);
-            this.txt_observaciones.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_observaciones.Margin = new System.Windows.Forms.Padding(2);
             this.txt_observaciones.MaxLength = 32767;
             this.txt_observaciones.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_observaciones.Name = "txt_observaciones";
@@ -286,7 +286,7 @@
             this.dtg_prestamo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dtg_prestamo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtg_prestamo.Location = new System.Drawing.Point(62, 406);
-            this.dtg_prestamo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtg_prestamo.Margin = new System.Windows.Forms.Padding(2);
             this.dtg_prestamo.Name = "dtg_prestamo";
             this.dtg_prestamo.ReadOnly = true;
             this.dtg_prestamo.RowHeadersWidth = 62;
@@ -312,7 +312,7 @@
             this.Controls.Add(this.txt_codigo);
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_id);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_prestamo";
             this.Text = "frm_prestamo";
             this.Load += new System.EventHandler(this.frm_prestamo_Load);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Negocio;
 
 namespace Presentacion
 {
@@ -17,16 +18,7 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        private void materialTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void materialMultiLineTextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void btn_cancelar_Click(object sender, EventArgs e)
         {
             txt_codigo.Focus();
@@ -37,14 +29,30 @@ namespace Presentacion
             txt_valor.Clear();
         }
 
-        private void txt_descripcion_Click(object sender, EventArgs e)
-        {
+      
 
+        private void btn_guardar_Click(object sender, EventArgs e)
+        {
+            cls_implementos obj_guardar = new cls_implementos();
+            obj_guardar.fnt_agregar(
+                txt_codigo.Text,
+                txt_nombre.Text,
+                txt_descripcion.Text,
+                Convert.ToDouble(txt_valor.Text),
+                Convert.ToInt16(txt_cantidad.Text));
         }
 
-        private void txt_nombre_TextChanged(object sender, EventArgs e)
+        private void txt_codigo_KeyUp(object sender, KeyEventArgs e)
         {
-
+            if (e.KeyCode == Keys.Enter)
+            {
+                cls_implementos objConsultar = new cls_implementos();
+                objConsultar.fnt_consultar(txt_codigo.Text);
+                txt_nombre.Text = objConsultar.getNombre();
+                txt_descripcion.Text = objConsultar.getDescripcion();
+                txt_cantidad.Text = Convert.ToString(objConsultar.getCantidad());
+                txt_valor.Text = Convert.ToString(objConsultar.getValor());
+            }
         }
     }
 }

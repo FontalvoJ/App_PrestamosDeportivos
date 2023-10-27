@@ -48,8 +48,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto", 34F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H4;
-            this.materialLabel1.Location = new System.Drawing.Point(390, 40);
-            this.materialLabel1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.materialLabel1.Location = new System.Drawing.Point(585, 62);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(322, 41);
@@ -64,17 +63,16 @@
             this.txt_codigo.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_codigo.Hint = "Código";
             this.txt_codigo.LeadingIcon = null;
-            this.txt_codigo.Location = new System.Drawing.Point(387, 94);
-            this.txt_codigo.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_codigo.Location = new System.Drawing.Point(580, 145);
             this.txt_codigo.MaxLength = 50;
             this.txt_codigo.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_codigo.Multiline = false;
             this.txt_codigo.Name = "txt_codigo";
-            this.txt_codigo.Size = new System.Drawing.Size(125, 50);
+            this.txt_codigo.Size = new System.Drawing.Size(188, 50);
             this.txt_codigo.TabIndex = 1;
             this.txt_codigo.Text = "";
             this.txt_codigo.TrailingIcon = null;
-            this.txt_codigo.TextChanged += new System.EventHandler(this.materialTextBox1_TextChanged);
+           
             // 
             // txt_nombre
             // 
@@ -84,17 +82,16 @@
             this.txt_nombre.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_nombre.Hint = "Nombre";
             this.txt_nombre.LeadingIcon = null;
-            this.txt_nombre.Location = new System.Drawing.Point(536, 94);
-            this.txt_nombre.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_nombre.Location = new System.Drawing.Point(804, 145);
             this.txt_nombre.MaxLength = 50;
             this.txt_nombre.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_nombre.Multiline = false;
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(219, 50);
+            this.txt_nombre.Size = new System.Drawing.Size(328, 50);
             this.txt_nombre.TabIndex = 3;
             this.txt_nombre.Text = "";
             this.txt_nombre.TrailingIcon = null;
-            this.txt_nombre.TextChanged += new System.EventHandler(this.txt_nombre_TextChanged);
+           
             // 
             // txt_cantidad
             // 
@@ -104,13 +101,12 @@
             this.txt_cantidad.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_cantidad.Hint = "Cantidad";
             this.txt_cantidad.LeadingIcon = null;
-            this.txt_cantidad.Location = new System.Drawing.Point(583, 270);
-            this.txt_cantidad.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_cantidad.Location = new System.Drawing.Point(874, 415);
             this.txt_cantidad.MaxLength = 50;
             this.txt_cantidad.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_cantidad.Multiline = false;
             this.txt_cantidad.Name = "txt_cantidad";
-            this.txt_cantidad.Size = new System.Drawing.Size(172, 50);
+            this.txt_cantidad.Size = new System.Drawing.Size(258, 50);
             this.txt_cantidad.TabIndex = 4;
             this.txt_cantidad.Text = "";
             this.txt_cantidad.TrailingIcon = null;
@@ -123,13 +119,12 @@
             this.txt_valor.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.txt_valor.Hint = "Valor";
             this.txt_valor.LeadingIcon = null;
-            this.txt_valor.Location = new System.Drawing.Point(387, 270);
-            this.txt_valor.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_valor.Location = new System.Drawing.Point(580, 415);
             this.txt_valor.MaxLength = 50;
             this.txt_valor.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_valor.Multiline = false;
             this.txt_valor.Name = "txt_valor";
-            this.txt_valor.Size = new System.Drawing.Size(172, 50);
+            this.txt_valor.Size = new System.Drawing.Size(258, 50);
             this.txt_valor.TabIndex = 5;
             this.txt_valor.Text = "";
             this.txt_valor.TrailingIcon = null;
@@ -141,8 +136,8 @@
             this.btn_actualizar.Depth = 0;
             this.btn_actualizar.HighEmphasis = true;
             this.btn_actualizar.Icon = null;
-            this.btn_actualizar.Location = new System.Drawing.Point(387, 337);
-            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_actualizar.Location = new System.Drawing.Point(580, 518);
+            this.btn_actualizar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_actualizar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_actualizar.Name = "btn_actualizar";
             this.btn_actualizar.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -160,8 +155,8 @@
             this.btn_guardar.Depth = 0;
             this.btn_guardar.HighEmphasis = true;
             this.btn_guardar.Icon = null;
-            this.btn_guardar.Location = new System.Drawing.Point(536, 337);
-            this.btn_guardar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_guardar.Location = new System.Drawing.Point(804, 518);
+            this.btn_guardar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_guardar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_guardar.Name = "btn_guardar";
             this.btn_guardar.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -171,6 +166,7 @@
             this.btn_guardar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             this.btn_guardar.UseAccentColor = false;
             this.btn_guardar.UseVisualStyleBackColor = true;
+            this.btn_guardar.Click += new System.EventHandler(this.btn_guardar_Click);
             // 
             // btn_cancelar
             // 
@@ -179,8 +175,8 @@
             this.btn_cancelar.Depth = 0;
             this.btn_cancelar.HighEmphasis = true;
             this.btn_cancelar.Icon = null;
-            this.btn_cancelar.Location = new System.Drawing.Point(659, 337);
-            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btn_cancelar.Location = new System.Drawing.Point(988, 518);
+            this.btn_cancelar.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.btn_cancelar.MouseState = MaterialSkin.MouseState.HOVER;
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.NoAccentTextColor = System.Drawing.Color.Empty;
@@ -201,8 +197,7 @@
             this.txt_descripcion.Depth = 0;
             this.txt_descripcion.HideSelection = true;
             this.txt_descripcion.Hint = "Descripción";
-            this.txt_descripcion.Location = new System.Drawing.Point(387, 158);
-            this.txt_descripcion.Margin = new System.Windows.Forms.Padding(2);
+            this.txt_descripcion.Location = new System.Drawing.Point(580, 243);
             this.txt_descripcion.MaxLength = 32767;
             this.txt_descripcion.MouseState = MaterialSkin.MouseState.OUT;
             this.txt_descripcion.Name = "txt_descripcion";
@@ -213,28 +208,29 @@
             this.txt_descripcion.SelectionLength = 0;
             this.txt_descripcion.SelectionStart = 0;
             this.txt_descripcion.ShortcutsEnabled = true;
-            this.txt_descripcion.Size = new System.Drawing.Size(368, 96);
+            this.txt_descripcion.Size = new System.Drawing.Size(552, 148);
             this.txt_descripcion.TabIndex = 9;
             this.txt_descripcion.TabStop = false;
             this.txt_descripcion.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.txt_descripcion.UseSystemPasswordChar = false;
-            this.txt_descripcion.Click += new System.EventHandler(this.txt_descripcion_Click);
+        
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(30, 40);
+            this.pictureBox1.Location = new System.Drawing.Point(45, 62);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(329, 333);
+            this.pictureBox1.Size = new System.Drawing.Size(494, 512);
             this.pictureBox1.TabIndex = 10;
             this.pictureBox1.TabStop = false;
             // 
             // frm_implementos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(794, 401);
+            this.ClientSize = new System.Drawing.Size(1201, 617);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txt_descripcion);
             this.Controls.Add(this.btn_cancelar);
@@ -245,7 +241,6 @@
             this.Controls.Add(this.txt_nombre);
             this.Controls.Add(this.txt_codigo);
             this.Controls.Add(this.materialLabel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "frm_implementos";
             this.Text = "frm_implementos";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
