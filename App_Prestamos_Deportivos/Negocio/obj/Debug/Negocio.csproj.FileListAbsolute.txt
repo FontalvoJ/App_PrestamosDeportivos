@@ -1,8 +1,8 @@
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.Properties.Resources.resources
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.GenerateResource.cache
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.dll
-C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\bin\Debug\Negocio.pdb
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.dll
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Negocio\obj\Debug\Negocio.pdb

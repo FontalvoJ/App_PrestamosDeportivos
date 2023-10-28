@@ -6,8 +6,8 @@ C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Pr
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_sexo.resources
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_modulo_usuarios.resources
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.frm_prestamo.resources
-C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe.config
 C:\Users\HP\Documents\GitHub\App_PrestamosDeportivos\App_Prestamos_Deportivos\Presentacion\bin\Debug\Presentacion.exe

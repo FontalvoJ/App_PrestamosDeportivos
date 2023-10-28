@@ -34,7 +34,7 @@ namespace Presentacion
         private void btn_guardar_Click(object sender, EventArgs e)
         {
             cls_implementos obj_guardar = new cls_implementos();
-            obj_guardar.fnt_agregar(
+            obj_guardar.fnt_registrar(
                 txt_codigo.Text,
                 txt_nombre.Text,
                 txt_descripcion.Text,
