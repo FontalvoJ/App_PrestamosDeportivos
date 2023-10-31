@@ -24,7 +24,7 @@ namespace Presentacion
             txt_codigo.Focus();
             txt_cantidad.Clear();
             txt_codigo.Clear();
-            txt_descripcion.Clear();
+            txt_especificaciones.Clear();
             txt_nombre.Clear();
             txt_valor.Clear();
         }
@@ -37,7 +37,7 @@ namespace Presentacion
             obj_guardar.fnt_registrar(
                 txt_codigo.Text,
                 txt_nombre.Text,
-                txt_descripcion.Text,
+                txt_especificaciones.Text,
                 Convert.ToDouble(txt_valor.Text),
                 Convert.ToInt16(txt_cantidad.Text));
         }
@@ -49,7 +49,30 @@ namespace Presentacion
                 cls_implementos objConsultar = new cls_implementos();
                 objConsultar.fnt_consultar(txt_codigo.Text);
                 txt_nombre.Text = objConsultar.getNombre();
-                txt_descripcion.Text = objConsultar.getDescripcion();
+                txt_especificaciones.Text = objConsultar.getEspecificaciones();
+                txt_cantidad.Text = Convert.ToString(objConsultar.getCantidad());
+                txt_valor.Text = Convert.ToString(objConsultar.getValor());
+            }
+        }
+
+        private void btn_actualizar_Click(object sender, EventArgs e)
+        {
+            cls_implementos objActualizar = new cls_implementos();
+            objActualizar.fnt_actualizar(txt_codigo.Text,
+                txt_nombre.Text,
+                txt_especificaciones.Text,
+                Convert.ToDouble(txt_valor.Text),
+                Convert.ToInt16(txt_cantidad.Text));
+        }
+
+        private void txt_codigo_KeyUp_1(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                cls_implementos objConsultar = new cls_implementos();
+                objConsultar.fnt_consultar(txt_codigo.Text);
+                txt_nombre.Text = objConsultar.getNombre();
+                txt_especificaciones.Text = objConsultar.getEspecificaciones();
                 txt_cantidad.Text = Convert.ToString(objConsultar.getCantidad());
                 txt_valor.Text = Convert.ToString(objConsultar.getValor());
             }
