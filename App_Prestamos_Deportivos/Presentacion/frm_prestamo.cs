@@ -54,8 +54,9 @@ namespace Presentacion
 
         private void btn_prestamo_Click(object sender, EventArgs e)
         {
-            cls_prestamos obj_prestar = new cls_prestamos;
-            obj_prestar.fnt_prestamo(txt_id.Text, "############");
+            cls_prestamos obj_prestar = new cls_prestamos();
+
+            obj_prestar.fnt_prestamo(txt_id.Text, "1001.JuanLópez");
                 for(int i=0; i < dtg_prestamo.Rows.Count; i++)
             {
                 obj_prestar.fnt_det_prestamos(Convert.ToString(dtg_prestamo.Rows[i].Cells[0].Value),
