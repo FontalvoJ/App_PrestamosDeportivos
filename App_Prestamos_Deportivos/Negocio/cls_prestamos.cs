@@ -66,7 +66,7 @@ namespace Negocio
             objconect.connection.Open();
             con.ExecuteNonQuery();
             objconect.connection.Close();
-            MessageBox.Show("Prestamo registrado con éxito", "Prestamo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Prestamo registrado con éxito", "Prestamos", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         public void fnt_det_prestamos(string cod_implemento, int cantidad)

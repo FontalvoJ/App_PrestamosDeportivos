@@ -56,7 +56,7 @@ namespace Presentacion
         {
             cls_prestamos obj_prestar = new cls_prestamos();
 
-            obj_prestar.fnt_prestamo(txt_id.Text, "1001.JuanLópez");
+            obj_prestar.fnt_prestamo(txt_id.Text, "1002.MaríaMartínez");
                 for(int i=0; i < dtg_prestamo.Rows.Count; i++)
             {
                 obj_prestar.fnt_det_prestamos(Convert.ToString(dtg_prestamo.Rows[i].Cells[0].Value),
